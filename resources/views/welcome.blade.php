@@ -10,6 +10,7 @@
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.bunny.net">
     <link href="https://fonts.bunny.net/css?family=figtree:400,600&display=swap" rel="stylesheet" />
+    <link rel="icon" href="{{ asset('storage/images/cannabis.png') }}">
 
     <!-- Styles -->
     <style>
@@ -526,6 +527,11 @@
         .bg-gray-100 {
             --tw-bg-opacity: 1;
             background-color: rgb(243 244 246 / var(--tw-bg-opacity))
+        }
+
+        .bg-emerald-200{
+            --tw-bg-opacity: 1;
+            background-color: rgb(167 243 208/ var(--tw-bg-opacity))
         }
 
         .bg-white {
